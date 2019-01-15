@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">AllySeek</string>
+    <string name="login">Login</string>
+    <string name="loginuseremail">E-mail</string>
+    <string name="loginpassword">Password</string>
+    <string name="forgotpassword">Forgot Password</string>
+    <string name="emailempty">Email field is required</string>
+    <string name="usernameempty">Username field is required</string>
+    <string name="passwordempty">Password field is required</string>
+    <string name="passwordlengtherror">Password should be minimum of 6 characters</string>
+    <string name="confirmpassworderror">Confirm Password field is required</string>
+    <string name="passwordmismatcherror">Password doesn\'t match</string>
+    <string name="geendererror">Gender field is required</string>
+    <string name="termsofuseerror">Terms of Uses should be accepted</string>
+    <string name="invalid_user">Invalid User/Email</string>
+    <string name="invalid_password">Invalid Password</string>
+    <string name="invalid_email">Email address is not valid</string>
+    <string name="check_connection">Check Internet Connection</string>
+    <string name="firstname">First Name</string>
+    <string name="dateofbirth">Date Of Birth</string>
+    <string name="lastname">Last Name</string>
+    <string name="Profile_For">Profile For</string>
+    <string name="Myself">Myself</string>
+    <string name="Son">Son</string>
+    <string name="Daughter">Daughter</string>
+    <string name="Brother">Brother</string>
+    <string name="Sister">Sister</string>
+    <string name="Relative">Relative</string>
+    <string name="Friend">Friend</string>
+    <string name="Confirm_Password">Confirm Password</string>
+    <string name="Gender">Gender</string>
+    <string name="Select_Gender">Select Gender</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="signuptocontinue">Sign up to continue</string>
+    <string name="Date_of_birth">Date of birth</string>
+    <string name="Age">Age</string>
+    <string name="relegion">relegion</string>
+    <string name="Marital_status">Marital status</string>
+    <string name="select">Select</string>
+    <string name="having_kids">Having kids?</string>
+    <string name="no_of_kids">No of kids</string>
+    <string name="specify_kids_count">Specify  kids count</string>
+    <string name="mother_tongue">Mother Tongue</string>
+    <string name="nationality">Nationality</string>
+    <string name="relegion_sub_category">relegion-sub category</string>
+    <string name="user_name">User Name</string>
+    <string name="next">Next</string>
+    <string name="termsofuse"> I accept the AllySeek terms of use</string>
+    <string name="religionrequired">Relegion Field Is Required</string>
+    <string name="profileselection">Profile for field is required</string>
+    <string name="gendererror">Gender field is required</string>
+    <string name="first_name_error">First Name field is required</string>
+    <string name="last_name_error">Last Name field is required</string>
+    <string name="dateofbirtherror">DateofBirth field is required</string>
+    <string name="religion_error">Religion field is required</string>
+    <string name="martial_status_error">Martal Status field is required</string>
+    <string name="others">Others</string>
+    <string name="where_doy_you_live">Where Do You Live</string>
+    <string name="where_do_you_grew_up">Where Do You Grew Up</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="languages_you_speak">Langages you speak</string>
+    <string name="residency_status">Residency Status</string>
+    <string name="states">State</string>
+    <string name="city">City</string>
+
+
+
+
+    <string-array name="gender_array">
+
+
+        <item>Male</item>
+        <item>Female</item>
+
+
+    </string-array>
+
+    <string-array name="relegion">
+        <item>Relegion</item>
+        <item>Atheist</item>
+        <item>Bahaism</item>
+        <item>Buddhism</item>
+        <item>Christian</item>
+        <item>Confucianism</item>
+        <item>Hindu</item>
+        <item>Inter-Religion</item>
+        <item>Jain</item>
+        <item>Jewish</item>
+        <item>Judaism</item>
+        <item>Muslim</item>
+        <item>Parsi</item>
+        <item>Shintoism</item>
+        <item>Sikh</item>
+        <item>Others</item>
+
+
+    </string-array>
+    <string-array name="martialStatus">
+        <item>Never Married</item>
+        <item>Single Parent</item>
+        <item>Widowed</item>
+        <item>Divorced</item>
+        <item>Awaiting divorce </item>
+    </string-array>
+
+    <string-array name="profile_array">
+
+
+        <item>My Self</item>
+        <item>Son</item>
+        <item>Daughter</item>
+        <item>Brother</item>
+        <item>Sister</item>
+        <item>Relative</item>
+        <item>Friend</item>
+    </string-array>
+    
+    <string-array name="residency_status">
+
+        <item>Citizen</item>
+        <item>Permanent Resident</item>
+        <item>Student Visa</item>
+        <item>Temporary Visa</item>
+        <item>Work Permit</item>
+
+
+    </string-array>
+
+    <string-array name="yes_no">
+        <item>No</item>
+        <item>Yes</item>
+
+
+    </string-array>
+
+    <string-array name="no_of_kids">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>More than 3</item>
+    </string-array>
+
+</resources>

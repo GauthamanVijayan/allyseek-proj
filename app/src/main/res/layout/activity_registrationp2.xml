@@ -7,173 +7,278 @@
     android:layout_height="match_parent"
     tools:context=".registration.Registrationp2"
     android:orientation="vertical"
-    android:background="@drawable/back1">
+   >
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="6"
+        android:layout_weight="5"
         android:orientation="vertical"
-        android:layout_margin="@dimen/login_edit_text_margin"
-        >
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="horizontal">
-
-
-
-            <EditText
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="match_parent"
-                android:maxLines="1"
-                android:hint="@string/firstname"
-                android:inputType="text"
-                android:id="@+id/regfirstname"
-                android:textColor="@android:color/white"
-                android:textColorHint="@android:color/white"
-                android:backgroundTint="#ffffff"
-                />
-
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="horizontal">
-
-
-
-            <EditText
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="match_parent"
-                android:hint="@string/lastname"
-                android:id="@+id/reglastname"
-                android:inputType="text"
-                android:textColorHint="@android:color/white"
-                android:backgroundTint="#ffffff"
-                android:textColor="@android:color/white"
-                android:maxLines="1"/>
-
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="horizontal">
-
-
-            <EditText
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:id="@+id/regdateofbirth"
-                android:clickable="true"
-                android:layout_weight="1"
-                android:hint="@string/dateofbirth"
-                android:textColorHint="@android:color/white"
-                android:gravity="center_vertical"
-                android:backgroundTint="#ffffff"
-                android:focusable="false"
-                android:longClickable="false"
-                android:textColor="@android:color/white"
-                android:textSize="@dimen/text_size"/>
-
-
-        </LinearLayout>
+        android:layout_margin="@dimen/text_size"
+        android:background="#f3f3f3">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
             android:orientation="horizontal"
-            android:id="@+id/ageholder"
-            android:visibility="gone">
-
+            android:paddingLeft="@dimen/text_padding"
+            android:paddingTop="@dimen/text_padding"
+            >
 
             <TextView
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:id="@+id/agetext"
-                android:clickable="true"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/dateofbirth"
-                android:textColorHint="@android:color/white"
-                android:gravity="center_vertical"
-                android:backgroundTint="#ffffff"
-                android:textColor="@android:color/white"
-                android:textSize="@dimen/text_size"/>
+                android:textSize="@dimen/text_size"
+                android:id="@+id/firstnameprefix"
+                android:textColor="@color/textcolor"
+                android:text="Her"
+                android:textAlignment="textEnd"
 
+                />
 
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="horizontal">
-
-
-
-            <Spinner
+            <TextView
                 android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="match_parent"
-                android:id="@+id/regreligion"
+                android:layout_weight="12"
+                android:layout_height="wrap_content"
+                android:text="@string/firstname"
+                android:textSize="@dimen/text_size"
+                android:textColor="@color/textcolor"
+                android:paddingLeft="3dp"
                 />
 
-
         </LinearLayout>
-
-        <LinearLayout
+        <EditText
             android:layout_width="match_parent"
-            android:layout_height="0dp"
             android:layout_weight="1"
-            android:id="@+id/otherreligionholder"
-            android:visibility="gone">
-            <androidx.appcompat.widget.AppCompatEditText
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:id="@+id/otherreligion"
-                android:backgroundTint="#ffffff"
-                />
-        </LinearLayout>
-
+            android:layout_height="0dp"
+            android:maxLines="1"
+            android:inputType="text"
+            android:id="@+id/regfirstname"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:background="@android:color/white"
+            android:layout_marginLeft="@dimen/text_padding"
+            android:layout_marginRight="@dimen/text_padding"
+            />
 
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/text_padding"
+            android:paddingTop="@dimen/text_padding">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/text_size"
+                android:id="@+id/lastnameprefix"
+                android:textColor="@color/textcolor"
+                android:text="Her"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="12"
+                android:layout_height="wrap_content"
+                android:text="@string/lastname"
+                android:textSize="@dimen/text_size"
+                android:textColor="@color/textcolor"
+                />
 
 
+        </LinearLayout>
 
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:maxLines="1"
+            android:hint="@string/firstname"
+            android:inputType="text"
+            android:id="@+id/reglname"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:background="@android:color/white"
+            android:layout_marginLeft="@dimen/text_padding"
+            android:layout_marginRight="@dimen/text_padding"
+            />
+
+
+    </LinearLayout>
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:layout_marginBottom="@dimen/card_margin">
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@id/regpagelogintext"
-            android:layout_margin="@dimen/card_margin"
-            android:id="@+id/regsignupandcontinue">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/signuptocontinue"
-                android:textSize="@dimen/text_size"
-                android:textColor="@android:color/black"
-                android:textAlignment="center"
-                android:layout_gravity="center"
+        android:orientation="vertical">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/text_padding"
+            android:layout_marginTop="@dimen/text_padding">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/text_size"
+                android:id="@+id/dateofbirtprefix"
+                android:textColor="@color/textcolor"
+                android:text="Her"
                 />
-        </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="12"
+                android:layout_height="wrap_content"
+                android:text="@string/dateofbirth"
+                android:textSize="@dimen/text_size"
+                android:textColor="@color/textcolor"
+               />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/regdateofbirth"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:clickable="true"
+            android:focusable="false"
+            android:gravity="center_vertical"
+            android:longClickable="false"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size"
+            android:layout_marginLeft="@dimen/text_padding"
+            android:layout_marginRight="@dimen/text_padding"/>
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/text_padding"
+        android:layout_marginTop="@dimen/text_padding">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/relegion"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/textcolor"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:id="@+id/regreligion"
+            android:background="@android:color/white"
+            android:layout_marginLeft="@dimen/text_padding"
+            android:layout_marginRight="@dimen/text_padding"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/text_padding"
+        android:layout_marginTop="@dimen/text_padding">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/relegion_sub_category"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/textcolor"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:id="@+id/subcommunity"
+            android:layout_marginLeft="@dimen/text_padding"
+            android:layout_marginRight="@dimen/text_padding"
+            android:background="@android:color/white"
+
+            />
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/text_padding">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/partnerprefcheck"
+android:layout_gravity="center_horizontal"                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/partnercoummunitypref"
+                    android:textColor="@color/textcolor"
+                    android:paddingTop="@dimen/text_padding"/>
+            </LinearLayout>
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/text_size"
+                android:background="@color/colorPrimary"
+                android:text="Continue"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
 
 
 

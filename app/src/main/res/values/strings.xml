@@ -35,7 +35,7 @@
     <string name="signuptocontinue">Sign up to continue</string>
     <string name="Date_of_birth">Date of birth</string>
     <string name="Age">Age</string>
-    <string name="relegion">relegion</string>
+    <string name="relegion">Religion</string>
     <string name="Marital_status">Marital status</string>
     <string name="select">Select</string>
     <string name="having_kids">Having kids?</string>
@@ -43,7 +43,7 @@
     <string name="specify_kids_count">Specify  kids count</string>
     <string name="mother_tongue">Mother Tongue</string>
     <string name="nationality">Nationality</string>
-    <string name="relegion_sub_category">relegion-sub category</string>
+    <string name="relegion_sub_category">Relegion-sub category</string>
     <string name="user_name">User Name</string>
     <string name="next">Next</string>
     <string name="termsofuse"> I accept the AllySeek terms of use</string>
@@ -63,6 +63,7 @@
     <string name="residency_status">Residency Status</string>
     <string name="states">State</string>
     <string name="city">City</string>
+    <string name="partnercoummunitypref">Not Particular about my partners\`s Community</string>
 
 
 

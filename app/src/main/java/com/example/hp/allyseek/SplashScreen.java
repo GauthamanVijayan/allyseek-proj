@@ -10,6 +10,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
+import com.example.hp.allyseek.registration.Registrationp2;
 import com.example.hp.allyseek.registration.Registrationp3;
 
 public class SplashScreen extends AppCompatActivity
@@ -41,7 +42,7 @@ public class SplashScreen extends AppCompatActivity
             public void onAnimationEnd(Animation animation)
             {
 
-                Intent intent=new Intent(SplashScreen.this,Registrationp3.class);
+                Intent intent=new Intent(SplashScreen.this,Registrationp2.class);
                 startActivity(intent);
 
             }

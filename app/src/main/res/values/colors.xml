@@ -5,4 +5,6 @@
     <color name="colorAccent"> #2e96d3</color>
     <color name="white">#ffffff</color>
     <color name="spinner_back">#37617a</color>
+    <color name="textcolor">#1a1a1a</color>
+
 </resources>
